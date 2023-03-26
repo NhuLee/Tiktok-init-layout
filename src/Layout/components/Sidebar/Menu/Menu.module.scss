@@ -1,0 +1,22 @@
+.menu-item {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 700;
+    align-items: center;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: background-color .2s ease-in-out;
+    &.active {
+        color: var(--primary);
+        svg {
+            fill: rgba(254, 44, 85, 1);
+        }
+    }
+    &:hover {
+        background: rgba(22, 24, 35, .06);
+    }
+    .title {
+        margin: 0 0 0 10px;
+    }
+}

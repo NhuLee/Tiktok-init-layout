@@ -1,0 +1,7 @@
+.wrapper {
+    width: var(--sidebar-width);
+    padding: 20px 0 26px;
+    .group-items {
+        border-top: 1px solid var(--border-color);
+    }
+}

@@ -1,0 +1,13 @@
+.label {
+    padding: 16px 8px 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--label-color);
+}
+
+.suggested-list {
+    &>div {
+        width: var(--sidebar-width);
+    }
+}
